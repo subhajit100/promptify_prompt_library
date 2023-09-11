@@ -62,7 +62,7 @@ const Feed = () => {
   };
 
   const fetchPosts = async () => {
-    const response = await fetch("/api/prompt");
+    const response = await fetch("/api/prompt/all");
     const data = await response.json();
     allPosts.current = data;
     setSearchedPosts(data);
