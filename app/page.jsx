@@ -8,7 +8,7 @@ const Home = () => {
   const { data: session } = useSession();
   return (
     <section className="w-full flex-col flex-center">
-      <h1 className="head_text text-center">
+      <h1 className="head_text text-center text-xs">
         {" "}
         Discover & Share
         <br />
